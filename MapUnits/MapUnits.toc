@@ -1,0 +1,43 @@
+## Interface: 11302
+## X-Min-Interface: 11302
+## Title: MapUnits
+## Notes: MapUnits
+## Notes-zhCN: 根据等级和类型在地图上标记怪物分布
+## Author: 雄霸鸠鸠#5652@CN
+## Email: benlypan@gmail.com
+## Version: 1.1.0
+
+# dbs
+db\init.lua
+db\data.lua
+
+db\enUS\faction.lua
+db\enUS\name.lua
+db\enUS\react.lua
+db\enUS\type.lua
+
+db\zhCN\faction.lua
+db\zhCN\name.lua
+db\zhCN\react.lua
+db\zhCN\type.lua
+
+db\zhTW\faction.lua
+db\zhTW\name.lua
+db\zhTW\react.lua
+db\zhTW\type.lua
+
+# libs
+lib\HereBeDragons\LibStub\LibStub.lua
+lib\HereBeDragons\CallbackHandler-1.0\CallbackHandler-1.0.xml
+lib\HereBeDragons\HereBeDragons-2.0.lua
+lib\HereBeDragons\HereBeDragons-Pins-2.0.lua
+
+# locale
+locale\enUS.lua
+locale\zhCN.lua
+locale\zhTW.lua
+locale.lua
+
+# main
+map.lua
+main.lua
